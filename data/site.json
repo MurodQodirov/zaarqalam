@@ -1,0 +1,64 @@
+{
+  "name": "Zarqalam",
+  "tagline": "Sun‘iy intellekt nafislik berolmaydi!",
+  "description": "Logo, qadoq, korporativ sovg‘alar va boshqa poligrafiya xizmatlari uchun kreativ yondashuv.",
+  "phone": "+998 99 200 33 53",
+  "phone_raw": "+998992003353",
+  "telegram": "https://t.me/zaarqalam",
+  "telegram_label": "@zaarqalam",
+  "instagram": "https://instagram.com/zaarqalam",
+  "instagram_label": "@zaarqalam",
+  "email": "info@zarqalam.uz",
+  "address": "Sirdaryo viloyati, Guliston shahar",
+  "work_hours": "",
+  "about_short": "Zarqalam — brending, grafik dizayn, qadoqlash va poligrafiya yo‘nalishida kreativ yechimlar taklif qiluvchi studiyadir.",
+  "about": {
+    "title": "Biz haqimizda",
+    "lead": "Biz brendni ko‘rinadigan, tushunarli va esda qolarli qilish bilan shug‘ullanamiz.",
+    "text": [
+      "Zarqalam logotip va brending, mahsulot qadoqlashi, korporativ sovg‘alar hamda katalog va taqdimot materiallarini tayyorlashda mijozlar bilan yaqin ishlaydi.",
+      "Har bir loyihada individual yondashuv, aniq vizual tizim va ishlab chiqarishga mos yechimlarni birlashtiramiz.",
+      "Maqsadimiz — g‘oyangizni professional dizayn va sifatli bosma mahsulotlar orqali bozorga chiqarishga yordam berish."
+    ]
+  },
+  "advantages": [
+    {
+      "title": "Individual yondashuv",
+      "text": "Har bir brendning vazifasi, auditoriyasi va mahsulotiga mos alohida yechim ishlab chiqiladi."
+    },
+    {
+      "title": "Dizayn yechimlari",
+      "text": "Logotipdan qadoqgacha — vizual tizim bir butun va professional ko‘rinishda tayyorlanadi."
+    },
+    {
+      "title": "Material tanlashda yordam",
+      "text": "Mahsulotga mos qog‘oz, qadoq turi va bosma texnikasini tanlashda amaliy maslahat beramiz."
+    },
+    {
+      "title": "Tushunarli jarayon",
+      "text": "Buyurtmadan topshirishgacha bosqichlar aniq, muloqot ochiq va natija nazorat ostida."
+    }
+  ],
+  "process": [
+    {
+      "step": "01",
+      "title": "Murojaat",
+      "text": "Loyiha haqida qisqa ma’lumot va aloqa ma’lumotlaringizni qoldirasiz."
+    },
+    {
+      "step": "02",
+      "title": "Talablarni aniqlash",
+      "text": "Vazifa, muddat va formatni aniqlab, aniq taklif tayyorlaymiz."
+    },
+    {
+      "step": "03",
+      "title": "Dizayn va tasdiq",
+      "text": "Konsept va maketlarni tayyorlab, siz bilan birgalikda tasdiqlaymiz."
+    },
+    {
+      "step": "04",
+      "title": "Ishlab chiqarish",
+      "text": "Tasdiqlangan dizayn asosida mahsulot ishlab chiqariladi va topshiriladi."
+    }
+  ]
+}

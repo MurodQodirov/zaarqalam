@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: zaarqalam
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /

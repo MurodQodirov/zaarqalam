@@ -1,0 +1,325 @@
+[
+    {
+        "slug": "branding",
+        "title": "Logotip & branding",
+        "short": "Logotip, firma uslubi, ranglar palitrasi va brend identifikatsiyasi.",
+        "description": "Kompaniyangiz uchun taniqli, izchil va professional vizual identifikatsiya yaratamiz — logotipdan brend qo‘llanmasigacha.",
+        "image": "/public/images/services/branding.jpg",
+        "includes": [
+            "Logotip konsepsiyasi va yakuniy variant",
+            "Ranglar palitrasi",
+            "Shrift tizimi",
+            "Firma uslubi elementlari",
+            "Brend qo‘llanmasi asoslari",
+            "Ijtimoiy tarmoqlar uchun vizual shablonlar"
+        ],
+        "faq": [
+            {
+                "q": "Logotip tayyorlash qancha vaqt oladi?",
+                "a": "Loyiha murakkabligiga qarab odatda bir necha ish kunidan bir necha haftagacha davom etadi. Aniq muddat suhbatdan keyin belgilanadi."
+            },
+            {
+                "q": "Nechta variant taqdim etiladi?",
+                "a": "Boshlang‘ich bosqichda bir nechta yo‘nalish ko‘rsatiladi, keyin tanlangan yo‘nalish yakuniy holatga keltiriladi."
+            }
+        ]
+    },
+    {
+        "slug": "vizitka",
+        "title": "Vizitka",
+        "short": "Brendingizga mos, professional vizitka dizayni va chop etishga tayyor fayllar.",
+        "description": "Kontakt ma’lumotlarini aniq, chiroyli va esda qolarli tarzda taqdim etadigan vizitka dizaynini tayyorlaymiz.",
+        "image": "/public/images/services/vizitka.svg",
+        "includes": [
+            "Vizitka maketi (old va orqa)",
+            "Brendga mos tipografika",
+            "Chop etish formatlari",
+            "Material va qoplama bo‘yicha tavsiya",
+            "Bosishga tayyor fayl"
+        ],
+        "faq": [
+            {
+                "q": "Ikki tomonlama vizitka qilish mumkinmi?",
+                "a": "Ha, old va orqa tomonlari birgalikda ishlab chiqiladi."
+            },
+            {
+                "q": "Standart o‘lchamda bo‘ladimi?",
+                "a": "Standart va maxsus o‘lchamlar mumkin — chop etish shartlariga moslab tayyorlaymiz."
+            }
+        ]
+    },
+    {
+        "slug": "flayer",
+        "title": "Flayer",
+        "short": "Aksiya, tadbir va mahsulotlar uchun qisqa va ta’sirli flayer dizayni.",
+        "description": "Muhim xabarni tez yetkazadigan, diqqatni tortadigan flayer maketlarini tayyorlaymiz.",
+        "image": "/public/images/services/flayer.jpg",
+        "includes": [
+            "Flayer konsepsiyasi",
+            "Matn va vizual tuzilma",
+            "Bir yoki ikki tomonlama maket",
+            "Chop etishga tayyor fayl",
+            "O‘lcham bo‘yicha moslash"
+        ],
+        "faq": [
+            {
+                "q": "Qanday o‘lchamlarda flayer qilasiz?",
+                "a": "A5, A6 va boshqa kerakli formatlarda tayyorlash mumkin."
+            }
+        ]
+    },
+    {
+        "slug": "menyu",
+        "title": "Menyu",
+        "short": "Restoran, kafе va kofe joylar uchun menyu dizayni.",
+        "description": "Mahsulotlaringizni tushunarli va ishtahani ochadigan tarzda ko‘rsatadigan menyu dizaynini ishlab chiqamiz.",
+        "image": "/public/images/services/menyu.jpg",
+        "includes": [
+            "Menyu tuzilmasi",
+            "Kategoriyalar bo‘yicha joylashuv",
+            "Narx va tavsiflar maketi",
+            "Bir yoki ko‘p sahifali format",
+            "Chop etishga tayyor fayl"
+        ],
+        "faq": [
+            {
+                "q": "Menyu yangilab turish uchun shablon beriladimi?",
+                "a": "Ha, keyinchalik oson yangilash uchun tuzilmali maket tayyorlanishi mumkin."
+            }
+        ]
+    },
+    {
+        "slug": "katalog",
+        "title": "Katalog",
+        "short": "Mahsulot va xizmatlar katalogi — aniq tuzilma va professional dizayn.",
+        "description": "Mahsulotlaringizni sotuvga yordam beradigan, chiroyli va tushunarli katalogga aylantiramiz.",
+        "image": "/public/images/services/katalog.jpg",
+        "includes": [
+            "Katalog tuzilmasi",
+            "Sahifa maketlari",
+            "Mahsulot kartochkalari",
+            "Infografika elementlari",
+            "Chop etish va raqamli PDF"
+        ],
+        "faq": [
+            {
+                "q": "Necha sahifalik katalog qilish mumkin?",
+                "a": "Sahifalar soni kontent hajmi va maqsadga qarab belgilanadi."
+            }
+        ]
+    },
+    {
+        "slug": "buklet",
+        "title": "Buklet",
+        "short": "Kompaniya, mahsulot yoki xizmatlar uchun buklet dizayni.",
+        "description": "Qisqa va ishonchli axborot beradigan buklet maketlarini brendingizga mos tayyorlaymiz.",
+        "image": "/public/images/services/buklet.jpg",
+        "includes": [
+            "Buklet konsepsiyasi",
+            "2 yoki 3 qavatli format",
+            "Matn va rasm joylashuvi",
+            "Brendga mos uslub",
+            "Bosishga tayyor fayl"
+        ],
+        "faq": [
+            {
+                "q": "Buklet va broshyura farqi bormi?",
+                "a": "Buklet odatda buklangan formatda bo‘ladi. Loyiha maqsadiga qarab eng mos formatni taklif qilamiz."
+            }
+        ]
+    },
+    {
+        "slug": "doorhanger",
+        "title": "Doorhanger",
+        "short": "Eshik osmalari uchun e’lon va reklama dizayni.",
+        "description": "Doorhanger formatiga mos, o‘qilishi oson va diqqatni jalb qiladigan dizayn tayyorlaymiz.",
+        "image": "/public/images/services/doorhanger.svg",
+        "includes": [
+            "Doorhanger maketi",
+            "Kesim joyi hisobga olingan dizayn",
+            "Old va orqa tomon",
+            "Aksiya / xabar joylashuvi",
+            "Chop etishga tayyor fayl"
+        ],
+        "faq": [
+            {
+                "q": "Standart doorhanger o‘lchami bormi?",
+                "a": "Ha, odatiy o‘lchamlar bilan ishlaymiz yoki chop etish shartiga moslab tayyorlaymiz."
+            }
+        ]
+    },
+    {
+        "slug": "cardholder",
+        "title": "Cardholder",
+        "short": "Vizitka stendi va cardholder uchun brendlangan dizayn.",
+        "description": "Vizitka va kartochkalar uchun cardholder yuzasiga mos brend dizaynini ishlab chiqamiz.",
+        "image": "/public/images/services/cardholder.jpg",
+        "includes": [
+            "Cardholder yuzasi maketi",
+            "Logotip va brend joylashuvi",
+            "Materialga mos dizayn",
+            "Chop / bosish fayli"
+        ],
+        "faq": [
+            {
+                "q": "Cardholder o‘zi ishlab chiqariladimi?",
+                "a": "Asosiy xizmat dizayn. Ishlab chiqarishni muvofiqlashtirish ham mumkin."
+            }
+        ]
+    },
+    {
+        "slug": "etiketka",
+        "title": "Etiketka",
+        "short": "Mahsulot etiketkasi, stiker va yorliq dizayni.",
+        "description": "Mahsulotingizni javonda ajratib ko‘rsatadigan, brendga mos etiketka dizaynini tayyorlaymiz.",
+        "image": "/public/images/services/etiketka.jpg",
+        "includes": [
+            "Etiketka konsepsiyasi",
+            "Majburiy ma’lumotlar joylashuvi",
+            "Shakl va o‘lchamga moslash",
+            "Material bo‘yicha tavsiya",
+            "Bosishga tayyor fayl"
+        ],
+        "faq": [
+            {
+                "q": "Turli o‘lchamdagi etiketkalar uchun bitta tizim qilish mumkinmi?",
+                "a": "Ha, bir brend ichida bir nechta o‘lcham va format uchun izchil tizim ishlab chiqiladi."
+            }
+        ]
+    },
+    {
+        "slug": "muqova",
+        "title": "Muqova",
+        "short": "Kitob, jurnal, katalog va hujjatlar uchun muqova dizayni.",
+        "description": "Mazmunni to‘g‘ri aks ettiradigan, kuchli va esda qolarli muqova dizaynini yaratamiz.",
+        "image": "/public/images/services/muqova.jpg",
+        "includes": [
+            "Muqova konsepsiyasi",
+            "Old, orqa va ildiz (spine) maketi",
+            "Tipografika va kompozitsiya",
+            "Chop etishga tayyor fayl"
+        ],
+        "faq": [
+            {
+                "q": "Faqat old muqova kerak bo‘lsa ham qilasizmi?",
+                "a": "Ha, ehtiyojga qarab to‘liq yoki qisman muqova maketi tayyorlanadi."
+            }
+        ]
+    },
+    {
+        "slug": "futbolka",
+        "title": "Futbolka",
+        "short": "Brendlangan futbolka uchun print va joylashuv dizayni.",
+        "description": "Logotip yoki illustratsiyani futbolkaga mos, chiroyli va ishlab chiqarishga qulay qilib joylashtiramiz.",
+        "image": "/public/images/services/futbolka.jpg",
+        "includes": [
+            "Print dizayni",
+            "Ko‘krak / orqa joylashuv",
+            "Rang variantlari",
+            "Chop etish / bosishga tayyor fayl"
+        ],
+        "faq": [
+            {
+                "q": "Futbolkani o‘zingiz tikasizmi?",
+                "a": "Asosiy xizmat dizayn va print maketi. Tikish va bosishni muvofiqlashtirish mumkin."
+            }
+        ]
+    },
+    {
+        "slug": "kepka",
+        "title": "Kepka",
+        "short": "Kepka uchun brendlangan logo va naqsh joylashuvi.",
+        "description": "Kepka shakliga mos, o‘qilishi yaxshi va brendga mos dizayn tayyorlaymiz.",
+        "image": "/public/images/services/kepka.jpg",
+        "includes": [
+            "Kepka uchun logo joylashuvi",
+            "Old / yon panel maketi",
+            "Rang va kontrast yechimi",
+            "Ishlab chiqarishga tayyor fayl"
+        ],
+        "faq": [
+            {
+                "q": "Kichik logotip ham yaxshi ko‘rinadimi?",
+                "a": "Ha, kepka yuzasiga qarab o‘lcham va joylashuvni alohida moslaymiz."
+            }
+        ]
+    },
+    {
+        "slug": "svitshot",
+        "title": "Svitshot",
+        "short": "Svitshot uchun print, logo va brend dizayni.",
+        "description": "Svitshot formatiga mos print va brend elementlarini professional joylashtiramiz.",
+        "image": "/public/images/services/svitshot.svg",
+        "includes": [
+            "Print / logo dizayni",
+            "Ko‘krak va orqa variantlar",
+            "Ranglar bo‘yicha moslash",
+            "Ishlab chiqarishga tayyor fayl"
+        ],
+        "faq": [
+            {
+                "q": "Futbolka dizaynini svitshotga ko‘chirib bo‘ladimi?",
+                "a": "Ko‘pincha moslashtirish kerak — joylashuv va o‘lcham mahsulotga qarab yangilanadi."
+            }
+        ]
+    },
+    {
+        "slug": "hoodie",
+        "title": "Hoodie",
+        "short": "Hoodie uchun brend print va joylashuv dizayni.",
+        "description": "Hoodie yuzasiga mos, zamonaviy va brendga mos print dizaynini tayyorlaymiz.",
+        "image": "/public/images/services/hoodie.svg",
+        "includes": [
+            "Hoodie print dizayni",
+            "Orqa / ko‘krak joylashuvi",
+            "Kapushon va detallar hisobi",
+            "Ishlab chiqarishga tayyor fayl"
+        ],
+        "faq": [
+            {
+                "q": "Katta orqa print mumkinmi?",
+                "a": "Ha, hoodie uchun katta orqa printlar ko‘p so‘raladi va moslab tayyorlanadi."
+            }
+        ]
+    },
+    {
+        "slug": "reklama",
+        "title": "Reklama belgilari",
+        "short": "Neon, yorug‘ yozuv, eshik va devor belgilari.",
+        "description": "Do‘kon, ofis va tadbirlar uchun yorug‘ yozuv, neon va metall belgilar dizaynini tayyorlaymiz.",
+        "image": "/public/images/services/reklama.jpg",
+        "includes": [
+            "Yozuv konsepsiyasi",
+            "Neon va yorug‘ belgilar",
+            "Eshik va devor plitalari",
+            "O‘lcham va materialga moslash",
+            "Ishlab chiqarishga tayyor maket"
+        ],
+        "faq": [
+            {
+                "q": "Faqat dizaynmi?",
+                "a": "Asosiy xizmat dizayn va maket. Ishlab chiqarishni ham muvofiqlashtirish mumkin."
+            }
+        ]
+    },
+    {
+        "slug": "qadoq",
+        "title": "Qadoq",
+        "short": "Paket, quti va korporativ sovg‘a to‘plamlari.",
+        "description": "Brendga mos paket, qadoq qutisi va korporativ sovg‘a to‘plamlarini loyihalaymiz.",
+        "image": "/public/images/services/qadoq.jpg",
+        "includes": [
+            "Paket dizayni",
+            "Qadoq qutisi",
+            "Korporativ sovg‘a to‘plami",
+            "Logotip joylashuvi",
+            "Ishlab chiqarishga tayyor fayl"
+        ],
+        "faq": [
+            {
+                "q": "Sovg‘a to‘plami ham kiradimi?",
+                "a": "Ha, quti, paket va ichidagi brendlangan buyumlar birgalikda loyihalanishi mumkin."
+            }
+        ]
+    }
+]

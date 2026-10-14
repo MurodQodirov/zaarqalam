@@ -1,0 +1,348 @@
+[
+    {
+        "slug": "zaarqalam-brand-identity",
+        "title": "zaarqalam brand identity",
+        "category": "branding",
+        "client": "zaarqalam",
+        "short": "Studiya uchun logotip va vizual identifikatsiya.",
+        "task": "Kreativ dizayn studiyasi uchun nafis, esda qolarli va professional brend belgisi yaratish.",
+        "solution": "Kalligrafik belgi va aniq tipografika asosida yorug‘ va qorong‘u muhitga mos logotip tizimi ishlab chiqildi.",
+        "image": "/public/images/portfolio/zaarqalam-logo-light.jpg",
+        "gallery": [
+            "/public/images/portfolio/zaarqalam-logo-light.jpg",
+            "/public/images/portfolio/zaarqalam-logo-dark.jpg"
+        ],
+        "featured": true
+    },
+    {
+        "slug": "turkiye-ozbekiston-badge",
+        "title": "B2B tadbir badge",
+        "category": "cardholder",
+        "client": "Türkiye–O‘zbekiston heyeti",
+        "short": "Toshkentdagi B2B uchrashuvlar uchun badge va lenta dizayni.",
+        "task": "Rasmiy tadbir uchun aniq, professional va oson o‘qiladigan ishtirokchi badge yaratish.",
+        "solution": "Bayroqlar, tashkilotchi logotiplari va rol yozuvi bilan markazlashgan vertikal badge maketi tayyorlandi.",
+        "image": "/public/images/portfolio/turkiye-badge.jpg",
+        "gallery": [
+            "/public/images/portfolio/turkiye-badge.jpg"
+        ],
+        "featured": true
+    },
+    {
+        "slug": "tosh-marmar-flayer",
+        "title": "Tabiiy tosh flayer",
+        "category": "flayer",
+        "client": "Türkiye–O‘zbekiston tadbiri",
+        "short": "Tabiiy tosh va marmar ishlab chiqaruvchilari uchun flayer.",
+        "task": "Tadbir ma’lumotini ko‘p tillarda aniq va jozibali yetkazish.",
+        "solution": "Chapda matn bloki, o‘ngda vizual ark bilan toza flayer maketi ishlab chiqildi.",
+        "image": "/public/images/portfolio/tosh-flayer.jpg",
+        "gallery": [
+            "/public/images/portfolio/tosh-flayer.jpg",
+            "/public/images/portfolio/tosh-papka.jpg"
+        ],
+        "featured": true
+    },
+    {
+        "slug": "tosh-marmar-papka",
+        "title": "Tabiiy tosh papka",
+        "category": "buklet",
+        "client": "Türkiye–O‘zbekiston tadbiri",
+        "short": "Tadbir uchun ochiluvchi papka va ichki sahifa dizayni.",
+        "task": "Vizual jihatdan kuchli, brendlogotiplar va tadbir axborotini birlashtirish.",
+        "solution": "Suratli muqova va oq matn sahifasi bilan ochiluvchi papka yechimi tayyorlandi.",
+        "image": "/public/images/portfolio/tosh-papka.jpg",
+        "gallery": [
+            "/public/images/portfolio/tosh-papka.jpg",
+            "/public/images/portfolio/tosh-flayer.jpg"
+        ],
+        "featured": true
+    },
+    {
+        "slug": "alimoglu-katalog",
+        "title": "Alimoğlu katalog sahifalari",
+        "category": "katalog",
+        "client": "Alimoğlu Madencilik",
+        "short": "Marmar va granit kompaniyasi uchun katalog sahifalari.",
+        "task": "Kompaniya ma’lumoti va kontaktlarni tartibli, professional formatda berish.",
+        "solution": "Logotiplar qatori, kontakt bloki va asosiy matn bilan izchil katalog sahifa tizimi yaratildi.",
+        "image": "/public/images/portfolio/alimoglu-buklet.jpg",
+        "gallery": [
+            "/public/images/portfolio/alimoglu-buklet.jpg"
+        ],
+        "featured": true
+    },
+    {
+        "slug": "benefud-etiketka",
+        "title": "Benefud qadoq etiketkasi",
+        "category": "etiketka",
+        "client": "Benefud",
+        "short": "Oziq-ovqat brendi uchun qadoq etiketkasi va servis to‘plami.",
+        "task": "Mahsulotni premium va ishonchli ko‘rsatadigan etiketka tizimini yaratish.",
+        "solution": "Logotip, kontaktlar va nozik pattern bilan qadoq etiketkasi va servis placemat dizayni tayyorlandi.",
+        "image": "/public/images/portfolio/benefud-etiketka.jpg",
+        "gallery": [
+            "/public/images/portfolio/benefud-etiketka.jpg"
+        ],
+        "featured": true
+    },
+    {
+        "slug": "arzon-sumka",
+        "title": "Arzon brend sumka",
+        "category": "qadoq",
+        "client": "Arzon",
+        "short": "Brendlangan sumka print dizayni.",
+        "task": "Oddiy va esda qolarli brend printini kundalik mahsulotga joylashtirish.",
+        "solution": "Logotip va shiorni sumka yuzasiga mos, aniq kontrast bilan joylashtirildi.",
+        "image": "/public/images/portfolio/arzon-sumka.jpg",
+        "gallery": [
+            "/public/images/portfolio/arzon-sumka.jpg"
+        ],
+        "featured": false
+    },
+    {
+        "slug": "bogi-shamol-daftar",
+        "title": "Bog‘i Shamol daftar",
+        "category": "branding",
+        "client": "JK Bog‘i Shamol",
+        "short": "Turar joy majmuasi uchun brendlangan spiral daftar.",
+        "task": "Brendni kundalik materiallarda nafis va amaliy ko‘rsatish.",
+        "solution": "Markaziy belgi, kontaktlar va brend yozuvi bilan daftar ichki sahifa dizayni yaratildi.",
+        "image": "/public/images/portfolio/bogi-shamol-daftar.jpg",
+        "gallery": [
+            "/public/images/portfolio/bogi-shamol-daftar.jpg"
+        ],
+        "featured": false
+    },
+    {
+        "slug": "smile-island-daftar",
+        "title": "Smile Island daftarlar",
+        "category": "muqova",
+        "client": "Smile Island",
+        "short": "Bolalar rivojlantirish markazi uchun daftar muqovasi.",
+        "task": "Yorqin, oilaviy va ishonchli brend hissiyotini muqovada aks ettirish.",
+        "solution": "Rangli logo, iqtibos va kontaktlar bilan bolalar markaziga mos muqova dizayni ishlab chiqildi.",
+        "image": "/public/images/portfolio/smile-island-daftar.jpg",
+        "gallery": [
+            "/public/images/portfolio/smile-island-daftar.jpg",
+            "/public/images/portfolio/bogi-shamol-daftar.jpg"
+        ],
+        "featured": true
+    },
+    {
+        "slug": "grove-grind-logo",
+        "title": "Grove & Grind logotipi",
+        "category": "branding",
+        "client": "Grove & Grind",
+        "short": "Qahva brendi uchun logotip va devor belgisi.",
+        "task": "Specialty coffee brendi uchun taniqli belgi yaratish.",
+        "solution": "Don tasviri va oltin tipografika bilan yagona logotip ishlab chiqildi.",
+        "image": "/public/images/portfolio/grove-grind.jpg",
+        "gallery": [
+            "/public/images/portfolio/grove-grind.jpg"
+        ],
+        "featured": false
+    },
+    {
+        "slug": "bakery-logo",
+        "title": "Bakery logotipi",
+        "category": "branding",
+        "client": "Bakery",
+        "short": "Novvoyxona uchun yorug‘ logotip.",
+        "task": "Issiq va esda qolarli oziq-ovqat brendi belgisi.",
+        "solution": "Bug‘doy belgisi va qo‘lyozma yozuv bilan neon logotip tayyorlandi.",
+        "image": "/public/images/portfolio/bakery-logo.jpg",
+        "gallery": [
+            "/public/images/portfolio/bakery-logo.jpg"
+        ],
+        "featured": false
+    },
+    {
+        "slug": "logo-sign-wall",
+        "title": "Logotip yozuvlari",
+        "category": "branding",
+        "client": "",
+        "short": "Turli brendlar uchun hajmli logotip yozuvlari.",
+        "task": "Brend nomini yorug‘ va hajmli ko‘rinishda taqdim etish.",
+        "solution": "Rangli, yoritilgan logotip yozuvlari yagona devor ekspozitsiyasida jamlandi.",
+        "image": "/public/images/portfolio/logo-signboard.jpg",
+        "gallery": [
+            "/public/images/portfolio/logo-signboard.jpg"
+        ],
+        "featured": false
+    },
+    {
+        "slug": "restaurant-menu",
+        "title": "Restoran menyusi",
+        "category": "menyu",
+        "client": "",
+        "short": "Vino va taomlar uchun muqovali menyu.",
+        "task": "Premium restoran uchun o‘qilishi oson menyu.",
+        "solution": "Bordo muqova, oltin tipografika va ichki sahifa tuzilmasi bilan menyu tayyorlandi.",
+        "image": "/public/images/portfolio/restaurant-menu.jpg",
+        "gallery": [
+            "/public/images/portfolio/restaurant-menu.jpg"
+        ],
+        "featured": false
+    },
+    {
+        "slug": "tonight-menu",
+        "title": "Tonight menyu",
+        "category": "menyu",
+        "client": "Tonight",
+        "short": "Fast-food menyusi — muqova va ichki sahifa.",
+        "task": "Tez ovqat menyusini chiroyli va aniq ko‘rsatish.",
+        "solution": "QR-kodli muqova va taomlar ro‘yxati bilan ikki sahifali menyu ishlab chiqildi.",
+        "image": "/public/images/portfolio/tonight-menu.jpg",
+        "gallery": [
+            "/public/images/portfolio/tonight-menu.jpg"
+        ],
+        "featured": false
+    },
+    {
+        "slug": "bloom-butter-sticker",
+        "title": "Bloom & Butter stiker",
+        "category": "etiketka",
+        "client": "Bloom & Butter",
+        "short": "Bankа uchun dumaloq stiker etiketka.",
+        "task": "Mahsulot idishiga mos nafis stiker.",
+        "solution": "Oltin chiziqli dumaloq stiker va rulon formatdagi etiketka tayyorlandi.",
+        "image": "/public/images/portfolio/bloom-sticker.jpg",
+        "gallery": [
+            "/public/images/portfolio/bloom-sticker.jpg"
+        ],
+        "featured": false
+    },
+    {
+        "slug": "motivated-minds-label",
+        "title": "Kiyim etiketi",
+        "category": "etiketka",
+        "client": "Motivated Minds",
+        "short": "Futbolka ichki yorlig‘i.",
+        "task": "O‘lcham va tarkib ko‘rsatilgan kiyim etiketi.",
+        "solution": "Logotip, o‘lcham va mato tarkibi bilan yelimli etiketka maketi yaratildi.",
+        "image": "/public/images/portfolio/tagless-label.jpg",
+        "gallery": [
+            "/public/images/portfolio/tagless-label.jpg"
+        ],
+        "featured": false
+    },
+    {
+        "slug": "childhood-tshirt",
+        "title": "Childhood futbolka",
+        "category": "futbolka",
+        "client": "",
+        "short": "Orqa printli oq futbolka.",
+        "task": "Katta orqa illustratsiya bilan futbolka printi.",
+        "solution": "Gilam naqshi va yozuv bilan orqa print joylashtirildi.",
+        "image": "/public/images/portfolio/childhood-tshirt.jpg",
+        "gallery": [
+            "/public/images/portfolio/childhood-tshirt.jpg"
+        ],
+        "featured": false
+    },
+    {
+        "slug": "kuban-tshirt",
+        "title": "Kuban futbolka",
+        "category": "futbolka",
+        "client": "Kuban",
+        "short": "Madaniy printli futbolka.",
+        "task": "Brend kodini kiyimga ko‘chirish.",
+        "solution": "Foto va naqshli orqa print futbolkaga moslab joylashtirildi.",
+        "image": "/public/images/portfolio/kuban-merch.jpg",
+        "gallery": [
+            "/public/images/portfolio/kuban-merch.jpg"
+        ],
+        "featured": false
+    },
+    {
+        "slug": "kuban-kepka",
+        "title": "Kuban kepka",
+        "category": "kepka",
+        "client": "Kuban",
+        "short": "Brend yozuvli kepka.",
+        "task": "Kepka paneliga mos qisqa yozuv.",
+        "solution": "Old panelga brend nomi va izoh aniq kontrast bilan joylashtirildi.",
+        "image": "/public/images/portfolio/kuban-merch.jpg",
+        "gallery": [
+            "/public/images/portfolio/kuban-merch.jpg"
+        ],
+        "featured": false
+    },
+    {
+        "slug": "door-name-plate",
+        "title": "Eshik belgisi",
+        "category": "reklama",
+        "client": "",
+        "short": "Xonadon raqami va ism yozilgan metall belgi.",
+        "task": "Eshik uchun o‘qilishi oson metall plastina.",
+        "solution": "Kesilgan raqam va ism bilan industrial belgi tayyorlandi.",
+        "image": "/public/images/portfolio/door-plate.jpg",
+        "gallery": [
+            "/public/images/portfolio/door-plate.jpg",
+            "/public/images/portfolio/street-plate.jpg"
+        ],
+        "featured": false
+    },
+    {
+        "slug": "amobile-sign",
+        "title": "Amobile yorug‘ yozuv",
+        "category": "reklama",
+        "client": "Amobile",
+        "short": "Do‘kon peshtoqi uchun yoritilgan yozuv.",
+        "task": "Kechasi ham o‘qiladigan tashqi yozuv.",
+        "solution": "Logotip va nom yoritilgan peshtoq belgisiga joylashtirildi.",
+        "image": "/public/images/portfolio/amobile-sign.jpg",
+        "gallery": [
+            "/public/images/portfolio/amobile-sign.jpg",
+            "/public/images/portfolio/light-sign.jpg"
+        ],
+        "featured": false
+    },
+    {
+        "slug": "neon-signs",
+        "title": "Neon yozuvlar",
+        "category": "reklama",
+        "client": "",
+        "short": "Neon va LED dekorativ yozuvlar.",
+        "task": "Tadbir va interyer uchun yorug‘ yozuv.",
+        "solution": "Shaffof asosda qo‘lyozma neon yozuvlar tayyorlandi.",
+        "image": "/public/images/portfolio/oh-baby-neon.jpg",
+        "gallery": [
+            "/public/images/portfolio/oh-baby-neon.jpg",
+            "/public/images/portfolio/better-together-neon.jpg"
+        ],
+        "featured": false
+    },
+    {
+        "slug": "paper-bags",
+        "title": "Qog‘oz paketlar",
+        "category": "qadoq",
+        "client": "Sweet Little Days",
+        "short": "Brend yozuvli qog‘oz paketlar.",
+        "task": "Oddiy va nafis paket dizayni.",
+        "solution": "Kraft va oq paketga nozik yozuv joylashtirildi.",
+        "image": "/public/images/portfolio/paper-bags.jpg",
+        "gallery": [
+            "/public/images/portfolio/paper-bags.jpg",
+            "/public/images/portfolio/saint-bag.jpg",
+            "/public/images/portfolio/fashion-bag.jpg"
+        ],
+        "featured": false
+    },
+    {
+        "slug": "corporate-gift-set",
+        "title": "Korporativ sovg‘a to‘plami",
+        "category": "qadoq",
+        "client": "",
+        "short": "Quti ichidagi brendlangan sovg‘a nabori.",
+        "task": "Hamkorlar uchun yagona sovg‘a qutisi.",
+        "solution": "Daftar, ruchka va termos bilan brendlangan quti to‘plami loyihalandi.",
+        "image": "/public/images/portfolio/corporate-gift.jpg",
+        "gallery": [
+            "/public/images/portfolio/corporate-gift.jpg",
+            "/public/images/portfolio/unita-gift.jpg"
+        ],
+        "featured": false
+    }
+]
