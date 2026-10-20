@@ -13,9 +13,6 @@ $serviceIndex = 0;
                 <span class="hero-line hero-line--accent">nafislik berolmaydi!</span>
             </h1>
             <p class="hero-text"><?= e($site['description'] ?? '') ?></p>
-            <?php if (!empty($site['seo_lead'])): ?>
-                <p class="hero-seo"><?= e($site['seo_lead']) ?></p>
-            <?php endif; ?>
             <div class="hero-actions">
                 <a class="btn btn--primary" href="#contact">
                     <span>Buyurtma berish</span>
