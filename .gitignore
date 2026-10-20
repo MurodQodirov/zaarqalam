@@ -1,5 +1,8 @@
 /public/uploads/*
 !/public/uploads/.gitkeep
 data/orders.json
+data/admin.json
+data/settings.json
+data/visits.json
 .DS_Store
 *.log

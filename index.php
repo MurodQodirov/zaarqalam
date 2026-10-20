@@ -14,6 +14,11 @@ if (str_starts_with($path, '/public/')) {
     return false;
 }
 
+if (str_starts_with($path, '/admin')) {
+    require ROOT_PATH . '/admin/router.php';
+    exit;
+}
+
 $site = site_data();
 
 if ($path === '/') {

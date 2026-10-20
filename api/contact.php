@@ -90,6 +90,8 @@ $order = [
     'quantity' => $data['quantity'],
     'message' => $data['message'],
     'attachment' => $attachment,
+    'status' => 'new',
+    'telegram_sent' => false,
     'ip' => $_SERVER['REMOTE_ADDR'] ?? null,
     'user_agent' => substr((string) ($_SERVER['HTTP_USER_AGENT'] ?? ''), 0, 255),
 ];
@@ -106,6 +108,20 @@ if (!save_json('orders.json', $orders)) {
         'success' => false,
         'message' => 'Buyurtmani saqlab bo‘lmadi. Keyinroq urinib ko‘ring.',
     ], 500);
+}
+
+require_once dirname(__DIR__) . '/includes/admin.php';
+$telegram = notify_telegram_order($order);
+if (!empty($telegram['ok'])) {
+    foreach ($orders as &$row) {
+        if (($row['id'] ?? '') === $order['id']) {
+            $row['telegram_sent'] = true;
+            $row['telegram_sent_at'] = date('c');
+            break;
+        }
+    }
+    unset($row);
+    save_json('orders.json', $orders);
 }
 
 json_response([

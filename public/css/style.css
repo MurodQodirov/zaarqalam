@@ -471,12 +471,14 @@ textarea {
 .hero-line {
   display: block;
   white-space: nowrap;
+  color: #c8c8c8;
+  font-weight: 500;
 }
 
 .hero-line--accent {
-  margin-top: 0.16em;
-  color: transparent;
-  -webkit-text-stroke: 1.6px var(--black);
+  margin-top: 0.14em;
+  color: var(--black);
+  font-weight: 700;
 }
 
 .hero-text {
@@ -1513,8 +1515,7 @@ textarea {
   }
 
   .hero-line--accent {
-    margin-top: 0.72em;
-    -webkit-text-stroke-width: 1.15px;
+    margin-top: 0.22em;
   }
 
   .hero-actions .btn,

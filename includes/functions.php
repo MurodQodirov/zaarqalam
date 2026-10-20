@@ -186,6 +186,9 @@ function page_url(string $path = '/'): string
 
 function render_page(string $view, array $vars = []): void
 {
+    require_once __DIR__ . '/analytics.php';
+    track_page_visit();
+
     extract($vars, EXTR_SKIP);
     $site = site_data();
     $services = services_data();

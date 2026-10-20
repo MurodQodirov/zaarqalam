@@ -256,20 +256,6 @@
         "featured": false
     },
     {
-        "slug": "kuban-kepka",
-        "title": "Kuban kepka",
-        "category": "kepka",
-        "client": "Kuban",
-        "short": "Brend yozuvli kepka.",
-        "task": "Kepka paneliga mos qisqa yozuv.",
-        "solution": "Old panelga brend nomi va izoh aniq kontrast bilan joylashtirildi.",
-        "image": "/public/images/portfolio/kuban-merch.jpg",
-        "gallery": [
-            "/public/images/portfolio/kuban-merch.jpg"
-        ],
-        "featured": false
-    },
-    {
         "slug": "door-name-plate",
         "title": "Eshik belgisi",
         "category": "reklama",

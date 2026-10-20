@@ -230,7 +230,7 @@
         "title": "Kepka",
         "short": "Kepka uchun brendlangan logo va naqsh joylashuvi.",
         "description": "Kepka shakliga mos, o‘qilishi yaxshi va brendga mos dizayn tayyorlaymiz.",
-        "image": "/public/images/services/kepka.jpg",
+        "image": "/public/images/services/kepka.svg",
         "includes": [
             "Kepka uchun logo joylashuvi",
             "Old / yon panel maketi",

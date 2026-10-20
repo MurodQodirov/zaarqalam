@@ -10,7 +10,7 @@ declare(strict_types=1);
 $uri = urldecode(parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/');
 
 // Block direct access to sensitive directories
-$blocked = ['/data/', '/includes/', '/pages/'];
+$blocked = ['/data/', '/includes/', '/pages/', '/admin/views/', '/admin/router.php'];
 foreach ($blocked as $prefix) {
     if (str_starts_with($uri, $prefix) || $uri === rtrim($prefix, '/')) {
         http_response_code(403);
