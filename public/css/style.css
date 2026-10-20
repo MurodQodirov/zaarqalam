@@ -490,6 +490,22 @@ textarea {
   text-align: start;
 }
 
+.hero-seo {
+  margin-top: 0.85rem;
+  max-width: 52ch;
+  color: #8a8a8a;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.seo-local {
+  margin-top: 2rem;
+  max-width: 70ch;
+  color: var(--gray);
+  font-size: 0.98rem;
+  line-height: 1.7;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -1077,6 +1093,12 @@ textarea {
 .faq-list {
   display: grid;
   gap: 0.75rem;
+  max-width: 820px;
+}
+
+.faq-item {
+  border: 1px solid var(--border);
+  background: var(--white);
 }
 
 .faq-item summary {

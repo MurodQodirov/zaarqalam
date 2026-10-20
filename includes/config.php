@@ -6,8 +6,8 @@ define('ROOT_PATH', dirname(__DIR__));
 define('DATA_PATH', ROOT_PATH . '/data');
 define('UPLOAD_PATH', ROOT_PATH . '/public/uploads');
 
-define('SITE_NAME', 'Zarqalam');
-define('SITE_URL', ''); // relative base; set absolute URL in production if needed
+define('SITE_NAME', 'Zaarqalam');
+define('SITE_URL', 'https://zaarqalam.uz');
 define('SITE_LANG', 'uz');
 
 date_default_timezone_set('Asia/Tashkent');

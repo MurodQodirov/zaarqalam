@@ -1,26 +1,29 @@
 <?php
+require_once __DIR__ . '/seo.php';
+
 $site = $site ?? site_data();
-$pageTitle = $pageTitle ?? ($site['name'] ?? 'Zarqalam');
-$metaDescription = $metaDescription ?? ($site['description'] ?? '');
-$ogImage = $ogImage ?? asset('public/images/portfolio/noir-coffee.svg');
-$canonical = $canonical ?? page_url(current_path());
+$pageTitle = $pageTitle ?? null;
+$metaDescription = $metaDescription ?? null;
+$ogImage = $ogImage ?? null;
+$canonical = $canonical ?? current_path();
 ?>
 <!DOCTYPE html>
 <html lang="uz">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= e($pageTitle) ?></title>
-    <meta name="description" content="<?= e($metaDescription) ?>">
-    <link rel="canonical" href="<?= e($canonical) ?>">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="<?= e($pageTitle) ?>">
-    <meta property="og:description" content="<?= e($metaDescription) ?>">
-    <meta property="og:image" content="<?= e($ogImage) ?>">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="<?= e($pageTitle) ?>">
-    <meta name="twitter:description" content="<?= e($metaDescription) ?>">
+    <?php
+    render_seo_head([
+        'site' => $site,
+        'pageTitle' => $pageTitle,
+        'metaDescription' => $metaDescription,
+        'ogImage' => $ogImage,
+        'canonical' => is_string($canonical) ? $canonical : current_path(),
+        'robots' => $robots ?? null,
+    ]);
+    ?>
     <link rel="icon" href="<?= e(asset('public/logo/favicon.png')) ?>" type="image/png">
+    <link rel="apple-touch-icon" href="<?= e(asset('public/logo/favicon.png')) ?>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
@@ -30,8 +33,8 @@ $canonical = $canonical ?? page_url(current_path());
 <header class="site-header" data-site-header>
     <div class="container header-inner">
         <div class="header-left">
-            <a class="logo" href="<?= e(page_url('/')) ?>" aria-label="zaarqalam bosh sahifa">
-                <img src="<?= e(asset('public/logo/1.png')) ?>" alt="zaarqalam" width="1848" height="330" class="logo-img">
+            <a class="logo" href="<?= e(page_url('/')) ?>" aria-label="Zaarqalam — Guliston logo va poligrafiya">
+                <img src="<?= e(asset('public/logo/1.png')) ?>" alt="Zaarqalam — Guliston brending va poligrafiya" width="1848" height="330" class="logo-img">
             </a>
 
             <nav class="nav" aria-label="Asosiy menyu">
