@@ -33,8 +33,8 @@ $canonical = $canonical ?? current_path();
 <header class="site-header" data-site-header>
     <div class="container header-inner">
         <div class="header-left">
-            <a class="logo" href="<?= e(page_url('/')) ?>" aria-label="Zaarqalam — Guliston logo va poligrafiya">
-                <img src="<?= e(asset('public/logo/1.png')) ?>" alt="Zaarqalam — Guliston brending va poligrafiya" width="1848" height="330" class="logo-img">
+            <a class="logo" href="<?= e(page_url('/')) ?>" aria-label="zaarqalam bosh sahifa">
+                <img src="<?= e(asset('public/logo/1.png')) ?>" alt="zaarqalam" width="1848" height="330" class="logo-img">
             </a>
 
             <nav class="nav" aria-label="Asosiy menyu">

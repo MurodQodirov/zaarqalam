@@ -23,8 +23,8 @@ $site = site_data();
 
 if ($path === '/') {
     render_page('home', [
-        'pageTitle' => 'Zaarqalam — Guliston logo, brending va poligrafiya',
-        'metaDescription' => $site['seo_description'] ?? 'Zaarqalam — Gulistonda logo xizmati, brending va poligrafiya. Sirdaryo, Guliston.',
+        'pageTitle' => 'Zaarqalam - Brending va poligrafiya',
+        'metaDescription' => $site['description'] ?? 'Logotip, qadoq, korporativ sovg‘alar va bosma mahsulotlar uchun kreativ yechimlar.',
         'projects' => portfolio_data(),
     ]);
     exit;
@@ -32,8 +32,8 @@ if ($path === '/') {
 
 if ($path === '/services') {
     render_page('services', [
-        'pageTitle' => 'Xizmatlar — Guliston logo va poligrafiya | Zaarqalam',
-        'metaDescription' => 'Gulistonda logo, brending, vizitka, flayer, menyu, katalog, buklet, etiketka, qadoq va merch — Zaarqalam poligrafiya xizmatlari.',
+        'pageTitle' => 'Xizmatlar — Zarqalam',
+        'metaDescription' => 'Logotip & branding, vizitka, flayer, menyu, katalog, buklet, etiketka, merch va boshqa poligrafiya xizmatlari.',
     ]);
     exit;
 }
@@ -63,8 +63,8 @@ if (preg_match('#^/services/([a-z0-9\-]+)$#', $path, $matches)) {
 
 if ($path === '/portfolio') {
     render_page('portfolio', [
-        'pageTitle' => 'Portfolio — Guliston brending va poligrafiya ishlari | Zaarqalam',
-        'metaDescription' => 'Zaarqalam portfolio: Guliston va Sirdaryodagi logo, brending, qadoq, merch va poligrafiya loyihalari.',
+        'pageTitle' => 'Portfolio — Zarqalam',
+        'metaDescription' => 'Zarqalamning tanlangan brending, qadoq, sovg‘a va poligrafiya loyihalari.',
         'projects' => portfolio_data(),
     ]);
     exit;
@@ -93,8 +93,8 @@ if (preg_match('#^/portfolio/([a-z0-9\-]+)$#', $path, $matches)) {
 
 if ($path === '/about') {
     render_page('about', [
-        'pageTitle' => 'Biz haqimizda — Guliston brending studiyasi | Zaarqalam',
-        'metaDescription' => $site['about_short'] ?? 'Zaarqalam — Guliston shahridagi brending va poligrafiya studiyasi.',
+        'pageTitle' => 'Biz haqimizda — Zarqalam',
+        'metaDescription' => $site['about_short'] ?? 'Zarqalam brending va poligrafiya studiyasi.',
     ]);
     exit;
 }
@@ -102,8 +102,8 @@ if ($path === '/about') {
 if ($path === '/contact') {
     $preselect = isset($_GET['service']) ? (string) $_GET['service'] : '';
     render_page('contact', [
-        'pageTitle' => 'Aloqa — Guliston logo va poligrafiya buyurtmasi | Zaarqalam',
-        'metaDescription' => 'Gulistonda logo va poligrafiya buyurtma bering. Telegram @zaarqalam, telefon +998 99 200 33 53.',
+        'pageTitle' => 'Aloqa va buyurtma — Zarqalam',
+        'metaDescription' => 'Zarqalam bilan bog‘laning yoki loyiha buyurtma bering.',
         'preselectService' => $preselect,
     ]);
     exit;

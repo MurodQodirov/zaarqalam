@@ -34,8 +34,8 @@ function seo_defaults(array $site = []): array
     return [
         'brand' => 'Zaarqalam',
         'name' => $name,
-        'title' => 'Zaarqalam — Guliston logo, brending va poligrafiya',
-        'description' => (string) ($site['seo_description'] ?? 'Zaarqalam — Gulistonda logo xizmati, brending, qadoq dizayni va poligrafiya. Sirdaryo viloyati, Guliston shaharda vizitka, flayer, menyu, katalog va merch dizayni.'),
+        'title' => 'Zaarqalam - Brending va poligrafiya',
+        'description' => (string) ($site['description'] ?? 'Logo, qadoq, korporativ sovg‘alar va boshqa poligrafiya xizmatlari uchun kreativ yondashuv.'),
         'keywords' => 'zaarqalam, zarqalam, guliston logo, guliston logo xizmati, gulistonda poligrafiya, sirdaryo poligrafiya, guliston brending, guliston vizitka, guliston qadoq, logo dizayn guliston',
         'ogImage' => absolute_url('/public/logo/1.png'),
         'locale' => 'uz_UZ',
@@ -181,23 +181,6 @@ function render_seo_head(array $vars = []): void
             'target' => site_base_url() . '/portfolio?q={search_term_string}',
             'query-input' => 'required name=search_term_string',
         ],
-    ];
-
-    $faqEntities = [];
-    foreach (seo_faq_items() as $item) {
-        $faqEntities[] = [
-            '@type' => 'Question',
-            'name' => $item['q'],
-            'acceptedAnswer' => [
-                '@type' => 'Answer',
-                'text' => $item['a'],
-            ],
-        ];
-    }
-    $schemas[] = [
-        '@context' => 'https://schema.org',
-        '@type' => 'FAQPage',
-        'mainEntity' => $faqEntities,
     ];
 
     $serviceList = [];

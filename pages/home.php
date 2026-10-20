@@ -138,30 +138,6 @@ $serviceIndex = 0;
     </div>
 </section>
 
-<section class="section section--alt" id="faq">
-    <div class="container">
-        <div class="section-head reveal">
-            <div>
-                <p class="eyebrow">Savollar</p>
-                <h2 class="section-title">Ko‘p so‘raladigan savollar</h2>
-                <p class="section-lead">Guliston logo xizmati, poligrafiya va Zaarqalam haqida qisqa javoblar.</p>
-            </div>
-        </div>
-        <div class="faq-list">
-            <?php foreach (seo_faq_items() as $item): ?>
-                <details class="faq-item reveal">
-                    <summary><?= e($item['q']) ?></summary>
-                    <p><?= e($item['a']) ?></p>
-                </details>
-            <?php endforeach; ?>
-        </div>
-        <p class="seo-local reveal">
-            Zaarqalam — <strong>Guliston</strong> shahri va <strong>Sirdaryo</strong> viloyatidagi logo, brending va poligrafiya studiyasi.
-            <strong>Gulistonda logo xizmati</strong>, vizitka, flayer, qadoq dizayni, menyu, katalog va merch buyurtma qilishingiz mumkin.
-        </p>
-    </div>
-</section>
-
 <section class="section" id="contact">
     <div class="container">
         <div class="section-head reveal">
