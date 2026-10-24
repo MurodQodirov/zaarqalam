@@ -45,7 +45,7 @@ $serviceIndex = 0;
                 <a class="service-row reveal" href="<?= e(page_url('/services/' . ($service['slug'] ?? ''))) ?>">
                     <span class="service-row__num"><?= str_pad((string) $serviceIndex, 2, '0', STR_PAD_LEFT) ?></span>
                     <div class="service-row__media">
-                        <img src="<?= e(asset($service['image'] ?? '')) ?>" alt="" loading="lazy" width="800" height="600">
+                        <img src="<?= e(asset($service['image'] ?? '')) ?>" alt="<?= e(($service['title'] ?? '') . ' — Guliston, Zaarqalam') ?>" loading="lazy" width="800" height="600">
                     </div>
                     <div class="service-row__body">
                         <h3><?= e($service['title'] ?? '') ?></h3>

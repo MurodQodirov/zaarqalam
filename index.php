@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 require_once __DIR__ . '/includes/functions.php';
+require_once __DIR__ . '/includes/seo.php';
 
 $uri = $_SERVER['REQUEST_URI'] ?? '/';
 $path = parse_url($uri, PHP_URL_PATH);
@@ -53,7 +54,8 @@ if (preg_match('#^/services/([a-z0-9\-]+)$#', $path, $matches)) {
 
     render_page('service-detail', [
         'pageTitle' => ($service['title'] ?? 'Xizmat') . ' — Zarqalam',
-        'metaDescription' => $service['short'] ?? ($site['description'] ?? ''),
+        'metaDescription' => 'Guliston va Sirdaryoda ' . mb_strtolower($service['title'] ?? 'xizmat') . ' — ' . ($service['short'] ?? '') . ' Zaarqalam poligrafiya.',
+        'keywords' => seo_service_keywords($service['slug']),
         'ogImage' => $service['image'] ?? null,
         'service' => $service,
         'relatedProjects' => $relatedProjects,

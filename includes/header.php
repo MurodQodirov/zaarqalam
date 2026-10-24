@@ -20,6 +20,7 @@ $canonical = $canonical ?? current_path();
         'ogImage' => $ogImage,
         'canonical' => is_string($canonical) ? $canonical : current_path(),
         'robots' => $robots ?? null,
+        'keywords' => $keywords ?? [],
     ]);
     ?>
     <link rel="icon" href="<?= e(asset('public/logo/favicon.png')) ?>" type="image/png">

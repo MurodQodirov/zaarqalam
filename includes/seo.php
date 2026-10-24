@@ -25,6 +25,46 @@ function absolute_url(string $path = '/'): string
     return site_base_url() . '/' . ltrim($path, '/');
 }
 
+function seo_keywords(): array
+{
+    return [
+        'zaarqalam', 'zarqalam', 'zaarqalam guliston',
+        'guliston poligrafiya', 'gulistonda poligrafiya', 'guliston tipografiya', 'guliston print',
+        'sirdaryo poligrafiya', 'sirdaryo tipografiya',
+        'guliston logo', 'guliston logo xizmati', 'sirdaryo logo xizmati', 'logotip branding', 'logo dizayn',
+        'guliston vizitka', 'premium vizitka',
+        'guliston menyu', 'menyu dizayn',
+        'guliston futbolka', 'futbolka pechat', 'merch',
+        'etiketka', 'birka', 'stiker', 'upakovka', 'qadoq dizayn',
+        'guliston reklama', 'tashqi reklama', 'guliston baner', 'banner',
+        'flayer', 'katalog', 'buklet',
+    ];
+}
+
+function seo_service_keywords(string $slug): array
+{
+    $map = [
+        'branding' => ['logotip branding', 'guliston logo xizmati', 'sirdaryo logo xizmati', 'logo dizayn guliston'],
+        'vizitka' => ['guliston vizitka', 'premium vizitka', 'vizitka pechat guliston'],
+        'flayer' => ['flayer guliston', 'listovka guliston', 'guliston print'],
+        'menyu' => ['guliston menyu', 'menyu dizayn', 'restoran menyu pechat'],
+        'katalog' => ['katalog dizayn guliston', 'guliston poligrafiya'],
+        'buklet' => ['buklet guliston', 'guliston tipografiya'],
+        'doorhanger' => ['doorhanger', 'eshik osmasi reklama'],
+        'cardholder' => ['cardholder', 'vizitka stend'],
+        'etiketka' => ['etiketka', 'birka', 'stiker guliston', 'yorliq pechat'],
+        'muqova' => ['muqova dizayn', 'guliston tipografiya'],
+        'futbolka' => ['guliston futbolka', 'futbolka pechat', 'futbolka logo'],
+        'kepka' => ['kepka logo', 'kepka pechat guliston'],
+        'svitshot' => ['svitshot pechat', 'merch guliston'],
+        'hoodie' => ['hoodie pechat', 'merch guliston'],
+        'reklama' => ['guliston reklama', 'tashqi reklama', 'guliston baner', 'reklama belgilari'],
+        'qadoq' => ['upakovka', 'qadoq dizayn', 'guliston upakovka', 'birka'],
+    ];
+
+    return $map[$slug] ?? [];
+}
+
 function seo_defaults(array $site = []): array
 {
     $name = (string) ($site['name'] ?? 'Zaarqalam');
@@ -36,7 +76,7 @@ function seo_defaults(array $site = []): array
         'name' => $name,
         'title' => 'Zaarqalam - Brending va poligrafiya',
         'description' => (string) ($site['description'] ?? 'Logo, qadoq, korporativ sovg‘alar va boshqa poligrafiya xizmatlari uchun kreativ yondashuv.'),
-        'keywords' => 'zaarqalam, zarqalam, guliston logo, guliston logo xizmati, gulistonda poligrafiya, sirdaryo poligrafiya, guliston brending, guliston vizitka, guliston qadoq, logo dizayn guliston',
+        'keywords' => implode(', ', seo_keywords()),
         'ogImage' => absolute_url('/public/logo/1.png'),
         'locale' => 'uz_UZ',
         'geoRegion' => 'UZ-SI',
@@ -80,6 +120,9 @@ function render_seo_head(array $vars = []): void
 {
     $site = $vars['site'] ?? site_data();
     $seo = array_merge(seo_defaults($site), $vars['seo'] ?? []);
+    if (!empty($vars['keywords'])) {
+        $seo['keywords'] = implode(', ', array_unique(array_merge((array) $vars['keywords'], seo_keywords())));
+    }
 
     $pageTitle = (string) ($vars['pageTitle'] ?? $seo['title']);
     $metaDescription = (string) ($vars['metaDescription'] ?? $seo['description']);
@@ -98,7 +141,7 @@ function render_seo_head(array $vars = []): void
         '@context' => 'https://schema.org',
         '@type' => 'Organization',
         'name' => 'Zaarqalam',
-        'alternateName' => ['Zarqalam', 'zaarqalam', 'zaarqalam guliston'],
+        'alternateName' => ['Zarqalam', 'zaarqalam', 'Zaarqalam Guliston', 'Zarqalam poligrafiya'],
         'url' => site_base_url() . '/',
         'logo' => absolute_url('/public/logo/1.png'),
         'email' => $seo['email'],
@@ -155,15 +198,7 @@ function render_seo_head(array $vars = []): void
             ['@type' => 'City', 'name' => 'Guliston'],
         ],
         'description' => $seo['description'],
-        'knowsAbout' => [
-            'logo dizayn',
-            'brending',
-            'poligrafiya',
-            'qadoq dizayni',
-            'vizitka',
-            'Guliston logo xizmati',
-            'Sirdaryo poligrafiya',
-        ],
+        'knowsAbout' => seo_keywords(),
     ];
 
     $schemas[] = [
@@ -193,6 +228,8 @@ function render_seo_head(array $vars = []): void
             'itemOffered' => [
                 '@type' => 'Service',
                 'name' => $service['title'],
+                'alternateName' => seo_service_keywords((string) ($service['slug'] ?? '')),
+                'url' => absolute_url('/services/' . ($service['slug'] ?? '')),
                 'description' => $service['short'] ?? ($service['description'] ?? ''),
                 'areaServed' => [
                     ['@type' => 'City', 'name' => 'Guliston'],
